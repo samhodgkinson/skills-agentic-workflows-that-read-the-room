@@ -14,6 +14,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 tools:
   github:
     mode: gh-proxy
@@ -31,10 +32,11 @@ safe-outputs:
 
 Read `notes/mona-notes.md` before making any decisions about the content or tone.
 
-Use web-fetch to read both official sources:
+Use web-fetch to read all three official sources:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 Use the GitHub repository API tools for repository guidance and reference files; do not use terminal, CLI, or sandboxed commands for that repository reading.
 
